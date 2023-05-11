@@ -1,0 +1,16 @@
+body{
+    background-color: #ffffff;
+}
+.principal{
+    display: flex;
+}
+.nav-principal-item{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+li:not(:first-child)>a{
+    background: pink;
+}
